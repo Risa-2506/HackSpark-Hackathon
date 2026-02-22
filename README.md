@@ -64,16 +64,17 @@ Government can:
 - Trigger inspections/raids
 
 📦 Tech Stack:
-React Native for Frontend of the shopkeeper app
-SQLlite for storing database locally in the app
-SHA-256 to provide Blockchain like simulation
-React Native fro simulating the SMS Logic
-React for frontend of the Dashboard
-Backend:
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
+
+-React Native for Frontend of the shopkeeper app
+-SQLlite for storing database locally in the app
+-SHA-256 to provide Blockchain like simulation
+-React Native fro simulating the SMS Logic
+-React for frontend of the Dashboard
+-Backend:
+ - Node.js
+ - Express.js
+ - MongoDB Atlas
+ - Mongoose
 
 📊 Impact
 - Prevents duplicate ration allocation
