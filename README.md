@@ -65,29 +65,31 @@ Government can:
 
 📦 Tech Stack:
 
-📱 Frontend
+## 🛠 Tech Stack
 
-React Native – Shopkeeper mobile application
+### 📱 Frontend
 
-React Native (Simulator) – USSD/SMS logic simulation
+- **React Native** – Shopkeeper mobile application  
+- **React Native (USSD Simulator)** – Simulates SMS/USSD logic  
+- **React.js** – Government Monitoring Dashboard  
 
-React.js – Government Monitoring Dashboard
+---
 
-💾 Local Storage (Offline-First Design)
+### 💾 Local Storage (Offline-First Architecture)
 
-SQLite – Stores beneficiary data and transactions locally
+- **SQLite** – Stores beneficiary data and transactions locally in the shopkeeper app  
+- **SHA-256** – Ensures tamper-proof transaction records (Blockchain-like simulation)
 
-SHA-256 – Ensures tamper-proof transaction records (Blockchain-like simulation)
+---
 
-⚙ Backend
+### ⚙ Backend
 
-Node.js – Runtime environment
+- **Node.js** – Runtime environment  
+- **Express.js** – REST API framework  
+- **MongoDB Atlas** – Cloud database for centralized storage  
+- **Mongoose** – MongoDB object modeling and schema management  
 
-Express.js – REST API framework
-
-MongoDB Atlas – Cloud database for central storage
-
-Mongoose – MongoDB object modeling
+---
 
 📊 Impact
 - Prevents duplicate ration allocation
