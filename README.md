@@ -1,7 +1,7 @@
 # ReverseOTP – Power Shift in Welfare Distribution System
 Designed for rural India with intermittent connectivity and scalable fraud monitoring.
 
-Problem Statement:
+### Problem Statement:
 Public Distribution System (PDS) in rural areas faces:
 
 - Duplicate ration distribution
@@ -13,7 +13,7 @@ Public Distribution System (PDS) in rural areas faces:
 Our system ensures secure token-based ration distribution
 with offline verification and fraud detection.
 
-Solution Overview:
+### Solution Overview:
 
 We built a secure ration distribution system that:
 
@@ -25,7 +25,7 @@ We built a secure ration distribution system that:
 - Performs fraud detection on both shopkeepers and customers
 - Provides admin analytics dashboard APIs
 
-Architecture:
+### Architecture:
 ### 👤 Customer (USSD Simulator)
 - Enters ration card number
 - Receives secure 15-minute UTID token
@@ -63,42 +63,41 @@ Government can:
 - Track repeated fake complainers
 - Trigger inspections/raids
 
-📦 Tech Stack:
 
-## 🛠 Tech Stack
+### 🛠 Tech Stack
 
-### 📱 Frontend
+## 📱 Frontend
 
 - **React Native** – Shopkeeper mobile application  
 - **React Native (USSD Simulator)** – Simulates SMS/USSD logic  
 - **React.js** – Government Monitoring Dashboard  
 
----
 
-### 💾 Local Storage (Offline-First Architecture)
+
+## 💾 Local Storage (Offline-First Architecture)
 
 - **SQLite** – Stores beneficiary data and transactions locally in the shopkeeper app  
 - **SHA-256** – Ensures tamper-proof transaction records (Blockchain-like simulation)
 
----
 
-### ⚙ Backend
+
+## ⚙ Backend
 
 - **Node.js** – Runtime environment  
 - **Express.js** – REST API framework  
 - **MongoDB Atlas** – Cloud database for centralized storage  
 - **Mongoose** – MongoDB object modeling and schema management  
 
----
 
-📊 Impact
+
+### 📊 Impact
 - Prevents duplicate ration allocation
 - Detects black marketing
 - Identifies fake complaints
 - Works in low-internet rural areas
 - Secure token-based distribution
 
-👥 Team Roles:
+### 👥 Team Roles:
 Risa: Backend architecture, Sync logic (Offlien to online databse), APIs, TOTP logic, Databses
 Ketan: USSD Simulator
 Blossom: Storing data offline using sqlite, triggering sync api when internet is available, frontend for the shopkeepers app
