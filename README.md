@@ -98,7 +98,7 @@ Government can:
 - Secure token-based distribution
 
 ### 👥 Team Roles:
-Risa: Backend architecture, Sync logic (Offlien to online databse), APIs, TOTP logic, Databses
-Ketan: USSD Simulator
-Blossom: Storing data offline using sqlite, triggering sync api when internet is available, frontend for the shopkeepers app
-Manish: Dasboard for the government officials
+- Risa: Backend architecture, Sync logic (Offlien to online databse), APIs, TOTP logic, Databses
+- Ketan: USSD Simulator
+- Blossom: Storing data offline using sqlite, triggering sync api when internet is available, frontend for the shopkeepers app
+- Manish: Dasboard for the government officials
