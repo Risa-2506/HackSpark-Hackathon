@@ -14,6 +14,7 @@ Our system ensures secure token-based ration distribution
 with offline verification and fraud detection.
 
 Solution Overview:
+
 We built a secure ration distribution system that:
 
 - Uses TOTP-based secure UTID tokens (valid for 15 minutes)
