@@ -65,16 +65,29 @@ Government can:
 
 📦 Tech Stack:
 
--React Native for Frontend of the shopkeeper app
--SQLlite for storing database locally in the app
--SHA-256 to provide Blockchain like simulation
--React Native fro simulating the SMS Logic
--React for frontend of the Dashboard
--Backend:
- - Node.js
- - Express.js
- - MongoDB Atlas
- - Mongoose
+📱 Frontend
+
+React Native – Shopkeeper mobile application
+
+React Native (Simulator) – USSD/SMS logic simulation
+
+React.js – Government Monitoring Dashboard
+
+💾 Local Storage (Offline-First Design)
+
+SQLite – Stores beneficiary data and transactions locally
+
+SHA-256 – Ensures tamper-proof transaction records (Blockchain-like simulation)
+
+⚙ Backend
+
+Node.js – Runtime environment
+
+Express.js – REST API framework
+
+MongoDB Atlas – Cloud database for central storage
+
+Mongoose – MongoDB object modeling
 
 📊 Impact
 - Prevents duplicate ration allocation
